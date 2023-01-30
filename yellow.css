@@ -1,0 +1,158 @@
+* {
+  padding: 2px;
+  margin: 0px;
+}
+/* top parameters */
+.top {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* nav paramaters */
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.logo {
+  background-color: red;
+  width: 150px;
+  height: 80px;
+  font-style: oblique;
+  text-align: center;
+  align-items: center;
+  transform: skew(-20deg);
+}
+.dsnn {
+  margin-top: 14px;
+}
+/* container parameters */
+.container {
+  display: flex;
+  background-color: #dddddd;
+}
+/* left flex or big box parameters */
+.left {
+  flex: 1;
+  margin-left: 50px;
+}
+.block-1 {
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  margin-top: 40px;
+  background-color: white;
+  font-size: 28px;
+}
+.block-1 h2 {
+  text-align: center;
+  border-bottom: solid black;
+}
+.block-2 {
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: white;
+  font-size: 28px;
+}
+.signin {
+  background-color: blue;
+  border: solid 2px black;
+  color: white;
+  height: 35px;
+  width: 80px;
+  font-size: 22px;
+  box-shadow: 4px 4px black;
+  margin-top: 10px;
+}
+.signup {
+  background-color: white;
+  border: solid 2px black;
+  color: black;
+  height: 35px;
+  width: 80px;
+  font-size: 22px;
+  box-shadow: black 20px;
+  margin-top: 10px;
+}
+.block-3 {
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 28px;
+  background-color: white;
+}
+.subscribe {
+  background-color: #ffe599;
+  border: solid 2px black;
+  color: black;
+  height: 35px;
+  width: 180px;
+  font-size: 22px;
+  box-shadow: 10px;
+  margin-top: 10px;
+}
+/* right flex or big box parameters */
+
+.right {
+  flex: 3;
+}
+.rightall {
+  background-color: white;
+  width: 1000px;
+  height: 510px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+.block-4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.live {
+  color: red;
+}
+.block-4 img {
+  width: 200px;
+}
+.block-5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ninjas {
+  color: #068ea0;
+}
+.pirates {
+  color: #e42434;
+}
+.block-6 {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: solid black 2px;
+
+}
+#score-11{
+    font-size: 50px;
+    margin-right: 150px;
+}
+#score-12{
+    font-size: 50px;
+    margin-right: 40px;
+    
+}
+.block-7{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+
+button {
+  box-shadow: 5px 5px;
+}
